@@ -120,7 +120,7 @@ offset_left = 253.0
 offset_top = 145.0
 offset_right = 1200.0
 offset_bottom = 373.0
-theme_override_colors/font_color = Color(0.012617188, 0.012617188, 0.012617188, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_lt2xq")
 theme_override_font_sizes/font_size = 132
 text = "Stonewall"
@@ -201,6 +201,10 @@ theme_override_constants/margin_bottom = 100
 
 [node name="SettingsMenuContainer" type="VBoxContainer" parent="SettingsLayer/MarginContainer" unique_id=1631239103]
 unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Spacer3" type="Control" parent="SettingsLayer/MarginContainer/SettingsMenuContainer" unique_id=792767481]
+custom_minimum_size = Vector2(0, 40)
 layout_mode = 2
 
 [node name="LabelOptions" type="Label" parent="SettingsLayer/MarginContainer/SettingsMenuContainer" unique_id=813673756]
